@@ -1,0 +1,14 @@
+<%= form_tag 'notes' do %>
+  <div>
+    <%= label_tag :title %>
+    <%= text_field_tag :title %>
+
+    <%= label_tag :body %>
+    <%= text_area_tag :body %>
+  </div>
+
+  <div>
+    <%= submit_tag 'Save Note' %>
+  </div>
+
+<% end %>
